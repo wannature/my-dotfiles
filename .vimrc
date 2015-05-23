@@ -3,6 +3,11 @@ set encoding=utf-8
 
 set nocompatible
 
+set nobackup
+set nowritebackup
+set noswapfile
+set noundofile
+
 syntax on
 set relativenumber
 set number
@@ -14,7 +19,7 @@ set expandtab
 
 set list
 set list listchars=tab:»·,trail:·,extends:>,precedes:<
-colorscheme zellner 
+colorscheme darkblue
 
 com E e.
 
