@@ -1,8 +1,11 @@
 scriptencoding utf-8
 set encoding=utf-8
 
-set nu
+set nocompatible
+
 syntax on
+set relativenumber
+set number
 
 set ruler
 set smartindent shiftwidth=4
@@ -14,3 +17,12 @@ set list listchars=tab:»·,trail:·,extends:>,precedes:<
 colorscheme zellner 
 
 com E e.
+
+cab W! w!
+cab Q! q!
+cab Wq wq
+cab Wa wa
+cab wQ wq
+cab WQ wq
+cab W w
+cab Q q
